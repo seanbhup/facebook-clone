@@ -1,15 +1,83 @@
+img{
+	max-width: 100%;
+}
+
+#facebook-wrapper{
+	/* if we need whole page styles */
+}
+
 #header{
-	background-color: blue;
+	/* height: 42px; */
+	height: 420px;
+	width: 100%;
+	background-color: #3b5998;
+	overflow: hidden;
 }
 
-#jumbotron{
-	background-color: green ;
+#header-inner{
+	max-width: 900px;
+	margin: auto;
 }
 
-#middle-section{
-	background-color: red;
+#left-header{
+
 }
 
-#bottom-section{
-	background-color: yellow;
+#fb-logo, #fb-search{
+	float: left;
+	margin-left: 10px;
+}
+
+#fb-logo{
+	height: 24px;
+	width: 24px;
+	background-image: url('fb_sprite.png');
+	background-size: 26px 905px;
+	background-position: 0 -163px;
+	margin-top: 10px;
+}
+
+#fb-search input{
+	height: 19px;
+	width: 393px;
+	border-radius: 5px;
+}
+
+#right-header{
+	float: right;
+}
+
+#right-header div{
+	float: left;
+}
+
+
+#small-avatar{
+	height: 24px;
+	width: 24px;
+	float: left;
+}
+
+/* This is a catch-all for the thress social icon divs */
+.social-icon{
+	height: 24px;
+	width: 24px;
+	background-image: url('fb_sprite.png');
+	background-size: 26px 905px;
+	float: left;
+}
+
+/* specific to the friends div */
+.friends{
+	background-position: 0 -188px;
+}
+
+/* specific to the messages div */
+.messages{
+	background-position: 0 -338px;
+}
+
+/* specific to the notifications div */
+.notifications{
+	background-position: 0 -238px;
 }
