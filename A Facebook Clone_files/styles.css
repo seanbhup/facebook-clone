@@ -1,6 +1,5 @@
 html{
 	background-color: #E9EBEE;
-	font-family: helvetica;
 }
 
 img{
@@ -122,8 +121,6 @@ img{
 #big-photo{
 	overflow: hidden;
 	height: 336px;
-	border-left: solid grey 1px;
-	border-right: solid grey 1px;
 }
 
 #big-photo img{
@@ -146,47 +143,28 @@ img{
 
 #menu-avatar-name{
 	float: left;
-	font-weight: bold;
-	font-size: 12px;
-	color: white;
 
 }
 
 #cover-buttons{
 	float: right;
 	position: absolute;
-	top: 320px;
-	margin-left: 666px;
-}
-
-#cover-buttons button{
-	font-family: helvetica;
-	font-weight: bold;
-	font-size: 12px;
-	background-color: #E9EBEE;
-	color: #4B4F56;
-	padding: 5px 10px;
-
+	top: 300px;
+	margin-left: 700px;
 }
 
 #cover-menu{
 	float: left;
 	background-color: #ffffff;
-	padding-left: 196px;
-	padding-right: 267px;
-	font-size: 14px;
-	color: #3b5998;
-	border-right: solid grey 1px;
-	border-bottom: solid grey 1px;
-	border-left: solid grey 1px;
+	padding-left: 250px;
+	padding-right: 226px;
 }
 
 .cover-menu-item{
 	float: left;
 	list-style-type: none;
 	padding: 20px;
-	border-right: solid grey 1px;
-	font-weight: bold;
+	
 }
 
 #cover-avatar-name{
@@ -194,11 +172,8 @@ img{
 	top: 325px;
 	left: 725px;
 	font-family: helvetica;
-	font-size: 24px;
+	font-size: 30px;
 	color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
-.timeline{
-	border-left: solid grey 1px;
 }
